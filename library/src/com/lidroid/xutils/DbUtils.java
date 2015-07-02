@@ -57,6 +57,9 @@ public class DbUtils {
         this.database = createDatabase(config);
         this.daoConfig = config;
     }
+	private void myMethod(){
+		
+	}
 
 
     private synchronized static DbUtils getInstance(DaoConfig daoConfig) {
